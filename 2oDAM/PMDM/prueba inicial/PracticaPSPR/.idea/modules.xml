@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio13.HilosJoin/Ejercicio13.HilosJoin.iml" filepath="$PROJECT_DIR$/Ejercicio13.HilosJoin/Ejercicio13.HilosJoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio17.Sincronizacion/Ejercicio17.Sincronizacion.iml" filepath="$PROJECT_DIR$/Ejercicio17.Sincronizacion/Ejercicio17.Sincronizacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio18.Synchronized/Ejercicio18.Synchronized.iml" filepath="$PROJECT_DIR$/Ejercicio18.Synchronized/Ejercicio18.Synchronized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio20.Synchronized/Ejercicio20.Synchronized.iml" filepath="$PROJECT_DIR$/Ejercicio20.Synchronized/Ejercicio20.Synchronized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PracticaPSPR.iml" filepath="$PROJECT_DIR$/PracticaPSPR.iml" />
+    </modules>
+  </component>
+</project>

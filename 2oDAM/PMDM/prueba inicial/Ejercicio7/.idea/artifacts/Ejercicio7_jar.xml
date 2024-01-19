@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Ejercicio7:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ejercicio7_jar</output-path>
+    <root id="archive" name="Ejercicio7.jar">
+      <element id="module-output" name="Ejercicio7" />
+      <element id="module-output" name="Cliente" />
+      <element id="module-output" name="Servidor" />
+    </root>
+  </artifact>
+</component>

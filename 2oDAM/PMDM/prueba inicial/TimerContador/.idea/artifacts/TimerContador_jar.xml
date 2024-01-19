@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TimerContador:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TimerContador_jar</output-path>
+    <root id="archive" name="ej1contador.jar">
+      <element id="module-output" name="TimerContador" />
+    </root>
+  </artifact>
+</component>

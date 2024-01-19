@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ejemplo1.Thread/Ejemplo1.Thread.iml" filepath="$PROJECT_DIR$/Ejemplo1.Thread/Ejemplo1.Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejemplo2.Runable/Ejemplo2.Runable.iml" filepath="$PROJECT_DIR$/Ejemplo2.Runable/Ejemplo2.Runable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejemplo3.Runable2/Ejemplo3.Runable2.iml" filepath="$PROJECT_DIR$/Ejemplo3.Runable2/Ejemplo3.Runable2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjemploJoin/EjemploJoin.iml" filepath="$PROJECT_DIR$/EjemploJoin/EjemploJoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjemploProductorConsumidor/EjemploProductorConsumidor.iml" filepath="$PROJECT_DIR$/EjemploProductorConsumidor/EjemploProductorConsumidor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creacionHilos.iml" filepath="$PROJECT_DIR$/creacionHilos.iml" />
+    </modules>
+  </component>
+</project>
