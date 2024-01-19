@@ -1,0 +1,93 @@
+
+$tam-base: 1rem;
+$color: #fdad9f;
+$color-fondo: #000000;
+$color-fondo-resaltado: #002050;
+$tipografia: "Comic Neue";
+
+nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: $color-fondo;
+    gap: 1rem;
+    
+    li {
+      flex-grow: 1;
+      text-align: center;
+      padding: $tam-base;
+      color: $color;
+      font-family: $tipografia;
+    }
+    
+    li:hover {
+      font-weight: 550;
+      cursor: pointer;
+      background-color: $color-fondo-resaltado;
+    }
+  }
+}
+
+.contenedor-imagen{
+  flex-basis: 50%;
+  
+  
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  
+img{
+  width: 100%;
+  
+}
+
+.zona-privada{
+  gap: 1rem;
+  
+
+
+}
+
+.boton{
+  padding: $tam-base;
+  color: $color;
+  background-color: $color-fondo;
+  text-align: center;
+  padding: $tam-base;
+  font-family: $tipografia;
+  width: 100%;
+}
+.boton:hover{
+  cursor: pointer;
+
+}
+
+.mensaje{
+  padding: $tam-base;
+  width: fit-content;
+  color: $color-fondo;
+  background-color: $color;
+  text-align: center;
+  font-family: $tipografia;
+}
+
+.photos{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 25%;
+
+}
+*{
+  font-family: $tipografia;
+
+
+}
+
+h1{
+  padding: 2rem;
+}

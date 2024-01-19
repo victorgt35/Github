@@ -1,0 +1,7 @@
+{
+  "name": "ud3_act2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

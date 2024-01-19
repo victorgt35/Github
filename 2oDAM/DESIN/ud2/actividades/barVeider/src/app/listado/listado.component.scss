@@ -1,0 +1,29 @@
+*{
+    font-family:"Open Sans";
+    box-sizing:border-box;
+    display: flex;
+}
+
+h1{
+    text-align:center;
+    padding:1rem;
+    font-size:3rem;
+    background-color:rgba(34, 81, 221, 0.5);
+    color:#FCFCFC;  
+}
+
+h2#ultimo{
+    text-align:center;
+    padding:1rem;
+    font-size:2rem;
+    background-color: #FCFCFC;
+    color:rgba(32, 36, 32, 0.5);;    
+    text-transform: uppercase;
+}
+
+.cocktails{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+

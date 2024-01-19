@@ -1,0 +1,7 @@
+<div class="btn btn-warning">hola mundo</div>
+
+<app-menu></app-menu>
+<h1 *ngIf="escuderiaFavorita==''">Sin escuderia favorita</h1>
+<h1 *ngIf="escuderiaFavorita!=''">Tu escuderia favorita es: {{escuderiaFavorita}}</h1>
+<router-outlet></router-outlet>
+<!-- <app-ferrari (onEscogeNombreEscuderia)="recogeNombreEscuderia($event)"></app-ferrari> -->

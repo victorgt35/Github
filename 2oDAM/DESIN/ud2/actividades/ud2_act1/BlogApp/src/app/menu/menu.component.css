@@ -1,0 +1,28 @@
+#barraNav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    background-color: rgb(155, 238, 155);
+    border-radius: 0.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:green
+}
+
+.elementoLista{
+    height: max-content;
+    width: 100%;
+    text-align: center;
+
+}
+
+.elementoLista:hover{
+        background-color: green;
+        color: white;
+        border-radius: 0.3rem;
+        cursor: pointer;
+
+}
+

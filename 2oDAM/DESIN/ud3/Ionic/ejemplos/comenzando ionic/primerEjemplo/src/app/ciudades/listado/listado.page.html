@@ -1,0 +1,86 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Ciudades</ion-title>
+    <ion-button id="volver" class="success" (click)="onPulsaVolver()">Volver</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button>Hola holita</ion-button>
+  <ion-button id="boton">mi boton</ion-button>
+  <ion-list>
+    <ion-list-header class="ion-text-center">
+      <h2>Mis ciudades favoritas</h2></ion-list-header
+    >
+    <ion-item *ngFor="let ciudad of listaCiudadesService.listaCiudades">
+      <ion-card>
+        <img alt="{{ciudad.nombre}}" src="{{ciudad.urlImagen}}" />
+        <ion-card-header>
+          <ion-card-title>{{ciudad.nombre}}</ion-card-title>
+          <ion-card-subtitle>{{ciudad.pais}}</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          Here's a small text description for the card content. Nothing more,
+          nothing less.
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+
+  <!--   <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <div class="ciudad">
+          <h3>Andorra la Vella</h3>
+          <img
+            src="https://www.turismeandorralavella.com/wp-content/uploads/2021/01/hivern_001.jpg"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione
+            consectetur temporibus commodi et praesentium ut labore earum ea magnam.
+          </p>
+        </div>
+      </ion-col>
+      <ion-col size="6">
+        <div class="ciudad">
+          <h3>Boston</h3>
+          <img
+            src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/530000/530953-cambridge-town.jpg"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            doloribus tenetur ducimus! Doloremque, architecto? Voluptatum eveniet
+            fugit dolor assumenda quod!
+          </p>
+        </div>
+      </ion-col >
+      <ion-col size="6">
+        <div class="ciudad">
+          <h3>Nueva Delhi</h3>
+          <img
+            src="https://www.ejeprime.com/files/2020/19_lugares/ciudades/nuevadelhi-728.jpg"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            doloribus tenetur ducimus! Doloremque, architecto? Voluptatum eveniet
+            fugit dolor assumenda quod!
+          </p>
+        </div>
+      </ion-col>
+      <ion-col size="6">
+        <div class="ciudad">
+          <h3>Nueva Delhi</h3>
+          <img
+            src="https://www.ejeprime.com/files/2020/19_lugares/ciudades/nuevadelhi-728.jpg"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            doloribus tenetur ducimus! Doloremque, architecto? Voluptatum eveniet
+            fugit dolor assumenda quod!
+          </p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid> -->
+</ion-content>

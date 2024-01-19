@@ -1,0 +1,9 @@
+<div class="inputs">
+
+    <p class="texto">Ancho:</p>
+    <input #inputImagenAncho (input)="cambioAncho(inputImagenAncho.value)" placeholder="{{ancho}}" value="{{ancho}}">
+    <p class="texto">Alto:</p>
+    <input #inputImagenAlto (input)="cambioAlto(inputImagenAlto.value)" placeholder="{{alto}}" value="{{alto}}">
+</div>
+
+<img src="{{urlDatos}}">

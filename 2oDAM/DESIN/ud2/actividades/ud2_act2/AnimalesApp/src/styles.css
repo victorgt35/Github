@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerAnimal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  align-self: center;
+}
+
+.containerImagen{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-self: center;
+  justify-content: center;
+}
+
+.imagen{
+  
+
+}
+
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    justify-content: center;
+    padding-inline-start: 20%;
+    padding-inline-end: 20%;
+}

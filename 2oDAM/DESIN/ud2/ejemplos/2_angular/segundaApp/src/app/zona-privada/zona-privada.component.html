@@ -1,0 +1,23 @@
+<div class="contenedor zona-privada">
+  <div class="boton" (click)="entraZonaPrivada()" *ngIf="!dentroZonaPrivada()">
+    login
+  </div>
+  <div class="boton" (click)="salZonaPrivada()" *ngIf="dentroZonaPrivada()">
+    logout
+  </div>
+  <div class="mensaje">
+    <span *ngIf="dentroZonaPrivada()">Bienvenido</span>
+    <span *ngIf="!dentroZonaPrivada()">No autentificado</span>
+  </div>
+</div>
+
+<div class="contenedor">
+  <div class="boton" (click)="conseguirFotos()">
+    <span>obten mis fotos</span>
+  </div>
+  <div *ngFor="let item of photos" class="photos">
+    <img [src]="item.thumbnailUrl"/>
+  </div>
+  
+</div>
+    

@@ -1,0 +1,25 @@
+.introducidoContainer{
+    display: flex;
+
+}
+
+.textoIntroducido{
+    background-color: orange;
+    color: white;
+    border-radius: 8rem;
+    width: fit-content;
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+
+
+}
+
+#pulsar{
+    background-color: green;
+    color:white;
+    border-radius: 8rem;
+    width: fit-content;
+    
+
+}

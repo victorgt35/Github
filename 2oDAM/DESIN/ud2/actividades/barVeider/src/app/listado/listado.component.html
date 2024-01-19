@@ -1,0 +1,10 @@
+<h1>Bar Veider</h1>
+<h2 id="ultimo">{{ actualizaTitulo() }}</h2>
+<div class="cocktails">
+  <app-cocktail
+    [cocktail]="cocktail"
+    class="cocktail"
+    *ngFor="let cocktail of cocktails"
+  >
+  </app-cocktail>
+</div>

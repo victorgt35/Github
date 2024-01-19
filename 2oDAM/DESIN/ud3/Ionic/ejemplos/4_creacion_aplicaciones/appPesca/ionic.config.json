@@ -1,0 +1,7 @@
+{
+  "name": "appPesca",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

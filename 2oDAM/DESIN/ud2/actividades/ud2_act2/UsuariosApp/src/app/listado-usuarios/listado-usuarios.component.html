@@ -1,0 +1,9 @@
+<button (click)="cargaUsuarios()">Dame usuarios</button>
+
+<div class="listado-usuarios">
+
+    <app-usuario *ngFor="let usuario of usuarios" [usuario]="usuario"></app-usuario>
+    
+</div>
+
+

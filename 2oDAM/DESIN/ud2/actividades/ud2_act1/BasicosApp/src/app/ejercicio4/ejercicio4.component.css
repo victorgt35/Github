@@ -1,0 +1,13 @@
+.inputs{
+    display: flex;
+}
+
+.texto{
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+    width: fit-content;
+    height:fit-content;
+    padding: 1rem 0.5rem;
+
+}

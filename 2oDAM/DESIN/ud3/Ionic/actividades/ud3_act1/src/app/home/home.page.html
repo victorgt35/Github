@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-title>
+    Contador
+    <ion-button (click)="reiniciar()" class="reiniciar" color="primary"
+      >Reiniciar</ion-button
+    ></ion-title
+  >
+
+  <ion-button size="full" color="warning" (click)="sumar()">
+    <ion-icon name="arrow-up-circle-outline"></ion-icon>
+  </ion-button>
+</ion-header>
+
+<ion-content class="container">
+  <div class="ion-justify-content-center" id="numero">{{numero}}</div>
+</ion-content>
+
+<ion-footer>
+  <ion-button color="warning" size="full" (click)="restar()">
+    <ion-icon name="arrow-down-circle-outline"></ion-icon>
+  </ion-button>
+</ion-footer>

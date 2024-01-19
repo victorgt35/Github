@@ -1,0 +1,23 @@
+<div>
+  <p class="nombre-cocktail">{{ cocktail.nombre }}</p>
+
+  <div class="{{ cocktail.nombre }} imagen-cocktail"></div>
+
+  <div class="botones">
+    <button class="boton boton-add" (click)="pulsarBoton()">
+      Añadir cocktail
+    </button>
+    <button class="boton boton-ver" routerLink="listado/{{cocktail.nombre}}">Ver</button>
+  </div>
+
+  <p class="mensaje" *ngIf="!botonPulsado()">No escogido</p>
+
+  <p class="mensaje" *ngIf="botonPulsado()">{{ cocktail.unidades }}</p>
+
+  <p class="mensaje">Total en la cuenta: {{ unidadesTotales }}</p>
+
+  
+  <button class="boton-volver" *ngIf="vistaUnica == true" routerLink="/listado">
+    volver
+  </button>
+</div>
